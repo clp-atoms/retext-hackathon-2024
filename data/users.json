@@ -1,0 +1,41 @@
+[
+  {
+    "firstName": "Marialuisa",
+    "lastName": "Pes",
+    "email": "marialuisa.pes@retexspa.com",
+    "password": "retex",
+    "roles": ["admin", "user"]
+  },
+  {
+    "firstName": "Carolina",
+    "lastName": "Goitre",
+    "birthDate": "1995-01-01",
+    "email": "carolina.goitre@retexspa.com",
+    "password": "retex",
+    "roles": ["user"],
+    "dateOfhire": "2019-01-01",
+    "industry": "Consulting",
+    "jobRole": "Project Manager",
+    "buddy": "Giovanni Lombi",
+    "attachments": [
+      {
+        "name": "lettera-assunzione.pdf",
+        "url": "https://example.com/lettera-assunzione.pdf"
+      }
+    ],
+    "hrDetails": [
+      {
+        "label": "Foto",
+        "value": "https://example.com/photo.jpg"
+      },
+      {
+        "label": "La tua esperienza precedente",
+        "value": "Milf"
+      },
+      {
+        "label": "Sede",
+        "value": "Milano"
+      }
+    ]
+  }
+]
