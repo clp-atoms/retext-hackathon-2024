@@ -1,7 +1,25 @@
-.title {
-    @apply bg-black;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-gradiant {
+    background-image: url("images/Background.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
-body {
-    @apply bg-black;
+input,
+button {
+    background: #fff;
+    width: 100%;
+    border-radius: 16px;
+    padding: 15px 22px;
+    margin-bottom: 19px;
+}
+
+button {
+    &[type="submit"] {
+        background-color: #000;
+        color: #fff;
+    }
 }

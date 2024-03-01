@@ -25,19 +25,33 @@ async function submit(formData: FormData) {
 
 <template>
   <NuxtLayout>
-    <div class="bg-white rounded-xl shadow-xl p-8 mx-auto my-16 max-w-[450px]">
-      <h1 class="title">Login</h1>
-      <FormKit
-        type="form"
-        #default="{ value }"
-        @submit="submit"
-        submit-label="Accedi"
-        class="w-full"
-        label="Accedi"
-      >
-        <FormKit type="email" name="email" label="Email" />
-        <FormKit type="password" name="name" label="Password" />
-      </FormKit>
+    <div>
+      <div class="h-screen md:flex md:items-center">
+        <div class="w-full md:w-[60%] md:mx-auto md:grid md:grid-cols-2">
+          <img
+            src="/images/Logo.png"
+            class="mb-[125px] md:mb-0 max-w-[104px] md:max-w-[202px] mx-h-[125px] md:max-h-[205px]"
+          />
+          <FormKit
+            type="form"
+            #default="{ value }"
+            @submit="submit"
+            submit-label="Login"
+            class="w-full"
+            label="Login"
+          >
+            <FormKit type="email" name="email" placeholder="Email" />
+            <FormKit type="password" name="name" placeholder="Password" />
+          </FormKit>
+        </div>
+      </div>
+      <p class="absolute bottom-0 text-center w-full mb-[24px]">© 2023 Retex</p>
     </div>
   </NuxtLayout>
 </template>
+
+<!-- <style type="text/scss">
+.title {
+  @apply bg-black;
+}
+</style> -->

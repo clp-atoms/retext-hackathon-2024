@@ -20,7 +20,12 @@
   "devDependencies": {
     "@formkit/addons": "^1.5.9",
     "@formkit/pro": "^0.122.2",
+    "nuxt-headlessui": "^1.1.5",
+    "sass": "^1.71.1",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-icons": "^0.18.5",
+    "unplugin-vue-components": "^0.26.0"
   }
 }
