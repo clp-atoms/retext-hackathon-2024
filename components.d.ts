@@ -7,7 +7,10 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    IconsCat: typeof import('~icons/icons/cat')['default']
+    IconsClock: typeof import('~icons/icons/clock')['default']
     IconsLogo: typeof import('~icons/icons/logo')['default']
+    IconsSearch: typeof import('~icons/icons/search')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
