@@ -28,10 +28,10 @@ async function submit(formData: FormData) {
     <div>
       <div class="h-screen md:flex md:items-center">
         <div class="w-full md:w-[60%] md:mx-auto md:grid md:grid-cols-2">
-          <img
-            src="/images/Logo.png"
+          <IconsLogo
             class="mb-[125px] md:mb-0 max-w-[104px] md:max-w-[202px] mx-h-[125px] md:max-h-[205px]"
           />
+
           <FormKit
             type="form"
             #default="{ value }"
