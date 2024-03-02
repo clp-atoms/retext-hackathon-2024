@@ -20,7 +20,14 @@
               submit-label="Create Record"
               label="Create Record"
             >
-              <FormKit type="email" name="email" placeholder="Email" />
+              <div style="margin-right: 8px">
+                <FormKit
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  style="border: 1px solid #cbd5e1"
+                />
+              </div>
             </FormKit>
           </div>
 
