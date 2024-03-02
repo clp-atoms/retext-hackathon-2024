@@ -57,14 +57,14 @@
   </div>
 </template>
 
-<style type="text/scss">
+<style scoped lang="scss">
 .formkit-form {
   display: flex;
 }
 .formkit-inner {
   margin-right: 8px;
 }
-.formkit-input[type="email"] {
-  border: 1px solid #cbd5e1;
+input[type="email"] {
+  border: 1px solid #cbd5e1 !important;
 }
 </style>

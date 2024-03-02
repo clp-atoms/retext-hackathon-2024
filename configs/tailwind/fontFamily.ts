@@ -1,3 +1,3 @@
 export default {
-  sans: ["var(--fontFamily)", "sans-serif"],
+  sans: ["Arial", "sans-serif"],
 };
