@@ -1,3 +1,6 @@
+<script setup>
+const showList = ref(false);
+</script>
 <template>
   <div class="relative">
     <div class="flex justify-between w-full py-[24px]">
@@ -9,13 +12,18 @@
         <div class="flex items-center justify-end">
           <button><IconsSearch class="mr-[8px]" /></button>
           <button><IconsClock class="mx-[8px]" /></button>
-          <button class="relative">
+          <button
+            @click="showList = !showList"
+            class="relative"
+            :class="{ 'border-b-[1px] border-neutral-gray': showList }"
+          >
             <IconsCat class="translate-y-[3px] ml-[8px]" />
           </button>
         </div>
       </div>
       <div
-        class="tooltip mt-[11px] border-[1px] border-neutral-gray rounded-[8px] p-[8px] bg-white shadow-md absolute right-0 bottom-0 translate-y-[100%] w-[209px]"
+        v-if="showList"
+        class="tooltip mt-[11px] border-[1px] border-neutral-gray rounded-[8px] p-[8px] bg-white shadow-md absolute right-0 bottom-0 translate-y-[88%] w-[209px]"
       >
         <div class="title border-b-[1px] border-neutral-gray py-[11px]">
           <strong>My account</strong>

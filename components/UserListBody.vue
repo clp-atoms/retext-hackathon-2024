@@ -9,7 +9,7 @@
     </Notification>
 
     <div class="grid grid-cols-2 gap-13 mt-[33px]">
-      <div>
+      <div class="mr-[52px]">
         <div>
           New Employee
           <div class="mt-[6px]">
@@ -31,7 +31,8 @@
             </FormKit>
           </div>
 
-          <IconsDatePicker class="mt-[30px] w-full" />
+          <!-- <IconsDatePicker class="mt-[30px] w-full" /> -->
+          <img src="/images/Calendar.jpg" class="mt-[30px] w-full" />
         </div>
       </div>
       <div>
