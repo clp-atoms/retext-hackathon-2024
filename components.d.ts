@@ -7,10 +7,22 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    IconClose: typeof import('~icons/ic/on-close')['default']
+    IconsAvatar: typeof import('~icons/icons/avatar')['default']
+    IconsCalendar: typeof import('~icons/icons/calendar')['default']
     IconsCat: typeof import('~icons/icons/cat')['default']
     IconsClock: typeof import('~icons/icons/clock')['default']
+    IconsClose: typeof import('~icons/icons/close')['default']
+    IconsDatePicker: typeof import('~icons/icons/date-picker')['default']
+    IconsHome: typeof import('~icons/icons/home')['default']
     IconsLogo: typeof import('~icons/icons/logo')['default']
+    IconsMessage: typeof import('~icons/icons/message')['default']
+    IconsNotification: typeof import('~icons/icons/notification')['default']
+    IconsNotificationBg: typeof import('~icons/icons/notification-bg')['default']
+    IconsNotifications: typeof import('~icons/icons/notifications')['default']
+    IconsSchedule: typeof import('~icons/icons/schedule')['default']
     IconsSearch: typeof import('~icons/icons/search')['default']
+    IconsWorld: typeof import('~icons/icons/world')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
