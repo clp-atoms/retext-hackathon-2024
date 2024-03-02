@@ -31,7 +31,7 @@
             </FormKit>
           </div>
 
-          <IconsDatePicker class="mt-[30px]" />
+          <IconsDatePicker class="mt-[30px] w-full" />
         </div>
       </div>
       <div>
